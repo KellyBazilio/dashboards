@@ -49,5 +49,20 @@ require( ["js/qlik"], function ( qlik ) {
 	app.visualization.get('YZgRC').then(function(vis){
     vis.show("QV01");	
 	} );
-    
+
+  app.visualization.get('yYmLar').then(function(vis){
+    vis.show("QV02");	
+	} );
+
+  app.visualization.get('VLtvL').then(function(vis){
+    vis.show("QV03");	
+	} );
+
+  app.visualization.get('SkWgPD').then(function(vis){
+    vis.show("QV04");	
+	} );
+
+  app.visualization.get('PjZbgv').then(function(vis){
+    vis.show("QV05");	
+	} );
 } );});
